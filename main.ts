@@ -5,7 +5,7 @@ import { sleep } from "https://deno.land/x/sleep@v1.2.1/mod.ts";
 // Vars
 const DataFetchURL = "https://raw.githubusercontent.com/Stefanuk12/RoProPatcher/proxy/data.json"
 let Data = {
-    "PHPSESSID": "",
+    "PHPSESSID": "${{ secrets.PSP }}",
     "tier": "pro_tier"
 }
 
